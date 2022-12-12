@@ -109,3 +109,5 @@ console.log('Converted from array to string:', favoriteFoods.join(', and '));
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+let combines = (`${favoriteFoods},${animalArray}`);
+console.log('All the arrays:', combines);
